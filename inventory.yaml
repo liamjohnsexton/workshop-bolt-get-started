@@ -10,8 +10,7 @@ groups:
         ssl: false
   - name: linux
     targets:
-      - uri: boltdrynix0.classroom.puppet.com
-        alias: nix
+      - boltdrynix0.classroom.puppet.com
     config:
       transport: ssh
       ssh:
