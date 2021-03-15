@@ -1,7 +1,7 @@
 groups:
   - name: windows
     targets:
-      - boltdrywin0.classroom.puppet.com
+      - boltwswinN.classroom.puppet.com
     config:
       transport: winrm
       winrm:
@@ -10,7 +10,7 @@ groups:
         ssl: false
   - name: linux
     targets:
-      - boltdrynix0.classroom.puppet.com
+      - boltwsnixN.classroom.puppet.com
     config:
       transport: ssh
       ssh:
